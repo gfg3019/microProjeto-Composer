@@ -1,0 +1,19 @@
+{
+    "name": "genis/projeto-composer",
+    "description": "Estudando Composer",
+    "type": "project",
+    "autoload": {
+        "psr-4": {
+            "Genis\\ProjetoComposer\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "gfg3019",
+            "email": "genissongomes@gmail.com"
+        }
+    ],
+    "require": {
+        "mpdf/mpdf": "^6.1"
+    }
+}
